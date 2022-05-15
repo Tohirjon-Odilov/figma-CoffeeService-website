@@ -23,6 +23,20 @@ html {
     overflow-x: hidden;
 } */
 
+.btn {
+  padding: 10px 30px;
+  background: #1f2132;
+  border-radius: 31.5449px;
+  color: #fff;
+  display: flex;
+  align-self: center;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #51525c;
+}
+
 .header {
   width: 100%;
   background: #ece0d6;
@@ -61,25 +75,19 @@ html {
 }
 
 #home-pic {
-  width: 00px;
+  overflow: hidden;
+}
+
+#home-pic img {
+  width: 700px;
   height: auto;
+  background-image: cover;
 }
 
 .container {
   position: relative;
   top: 30vh;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries */
 
