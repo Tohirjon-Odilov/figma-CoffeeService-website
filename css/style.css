@@ -187,6 +187,10 @@ html {
 
 /* product  */
 
+.product{
+  min-height: 500px;
+}
+
 .product .container{
   min-width: 150vh;
   margin-top: -100px;
@@ -213,13 +217,83 @@ html {
   height: auto;
 }
 
+/* .product .container h1{
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.175px;
+} */
+
 .product .container .row:nth-child(2){
   padding-bottom: 100px;
 }
 
+/* benefit */
+
 .benefit{
   width: 100%;
-  height: 750px;
+  min-height: 600px;
+}
+
+.benefit .container .row .flexs{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.benefit .container .row .flexs .part p{
+  color: #6B6867;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.benefit .container .row .flexs .part h2{
+  font-size: 20px;
+  line-height: 28px;
+  color: #1B1D21;
+}
+
+.benefit .font1{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1.14286px;
+  color: #6B6867;
+}
+
+.benefit .font2{
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.175px;
+  color: #1F2132;
+}
+
+/* gallery */
+
+.gallery{
+  width: 100%;
+  min-height: 200vh;
+  background: #1F2132;
+}
+
+/* .gallery .container{
+  padding-top: -150px;
+} */
+
+.gallery .font1{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.gallery .font2{
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.175px;
+  color: white;
 }
 
 
